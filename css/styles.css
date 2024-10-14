@@ -23,9 +23,9 @@ h1{
 }
 
 .formulario{
-    width: 50%;
+    width: 40%;
     max-width: 1400px;
-    padding: 25px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -82,7 +82,7 @@ h1{
     background-color: transparent;
     border: 2px solid #fff;
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     cursor: pointer;
     transition: background-color .3s ease;
@@ -100,7 +100,7 @@ h1{
     background-color: transparent;
     border: 2px solid #fff;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .botones__registrar:hover,.botones__login:hover{

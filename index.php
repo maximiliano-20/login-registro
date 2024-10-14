@@ -9,7 +9,7 @@
 <body>
 
     <section class="contenedor">
-         <form  class="formulario">
+         <form  class="formulario" id="formulario">
             <h1>Inicia Sesion</h1>
             <div class="formulario__grupo">
                 <input type="text" class="formulario__campo" placeholder="Usuario">
@@ -27,6 +27,6 @@
             
          </form>
     </section>
-    
+    <script src="js/app.js"></script>
 </body>
 </html>

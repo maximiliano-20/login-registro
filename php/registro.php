@@ -9,19 +9,19 @@
 <body>
 
     <section class="contenedor">
-         <form  class="formulario">
+         <form  class="formulario" id="formulario" method="POST" action="insertar_usuarios.php">
             <h1>Registrate</h1>
               <div class="formulario__grupo">
-                  <input type="text" class="formulario__campo" placeholder="Nombre Completo">
+                  <input type="text" class="formulario__campo" id="nombres" name="nombres" placeholder="Nombre Completo">
               </div>
               <div class="formulario__grupo">
-                <input type="email" class="formulario__campo" placeholder="Correo Electronico">
+                <input type="email" class="formulario__campo" id="email" name="email" placeholder="Correo Electronico">
             </div>
             <div class="formulario__grupo">
-                <input type="text" class="formulario__campo" placeholder="Usuario">
+                <input type="text" class="formulario__campo" id="usuario" name="usuario" placeholder="Usuario">
             </div>
             <div class="formulario__grupo">
-                <input type="password" class="formulario__campo" placeholder="Contraseña">
+                <input type="password" class="formulario__campo" id="password" name="password" placeholder="Contraseña">
             </div>
             <div class="botones">
                 <button type="submit" class="botones__registrar">Registrar</button>
@@ -29,6 +29,8 @@
             </div>
          </form>
     </section>
-    
+    <script src="../js/app.js"></script>
+    <script type="text/javascript" src="../sweet-alert/sweetalert2@9.js"></script>
+
 </body>
 </html>
